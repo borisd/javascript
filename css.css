@@ -1,0 +1,117 @@
+html { 
+  background: url(http://dl.dropbox.com/u/15289470/course-images/beach-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 30px 30px;
+  font-family: sans-serif;
+  color: white;
+}
+
+h1{
+  font-size: 52px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+h2{
+  font-weight:bold;
+  margin: 10px 0px;
+}
+
+p {
+  font-size: 22px;
+  margin: 0px
+}
+
+ul{
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+div.content{
+  width: 800px;
+  margin: auto;
+  background: black;
+  padding: 20px;
+  background-color:rgba(0,0,0,0.8);
+  border-radius: 10px;
+}
+
+img.profile {
+  margin:10px;
+  border-radius: 10px;
+}
+
+#social-icons a img { 
+  float:left; 
+  margin: 10px;
+  border-radius: 60px;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  -moz-transition: -moz-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+}
+
+#social-icons a img:hover { 
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+
+.main{
+  width: 620px;
+  float: left;
+}
+
+.sidebar {
+  width: 180px;
+  height: 100%;
+  border-radius: 10px;
+  background: white;
+  float: right;
+  color: grey;
+}
+
+.stats{
+  padding:10px;
+}
+
+.stat{
+  margin-bottom: 10px;
+}
+
+.label{
+  display: inline;
+}
+
+.amount{
+  display: inline;
+  float: right;
+}
+
+.stat-total{
+  border-top: solid 1px grey;
+  padding: 10px 0px;
+  font-weight: bold;
+}
+
+.currency {
+  font-size: 11px;
+}
+
+.currency a {
+  color: #1F286D;
+  text-decoration: none;
+
+}

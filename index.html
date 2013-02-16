@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='css.css' rel='stylesheet' />
+    <title>Introduction to Javascript</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  </head>    
+
+  <body>
+    <div class="content" >
+      <div class="main">
+        <h1>Elan Perach</h1>
+
+        <p>A super ninja web developer working at 500Tech on Ruby on Rails web apps.</p>
+
+        <h2>Skills</h2>      
+        <ul>
+          <li>Ruby on Rails</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascripte</li>
+          <li>PPC</li>
+          <li>SEO</li>
+        </ul>
+
+        <h2>Social Links</h2>
+        <div id="social-icons">
+          <a href="https://twitter.com/elanperach" target="_blank">
+            <img src="http://dl.dropbox.com/u/15289470/course-images/twitter.png" width="48" height="48" alt="Twitter" />
+          </a>
+          <a href="https://openbook.etoro.com/elan500/" target="_blank">
+            <img src="http://dl.dropbox.com/u/15289470/course-images/etoro.jpg" width="48" height="48" alt="eToro" />
+          </a>
+          <a href="http://www.linkedin.com/in/elanperach" target="_blank">
+            <img src="http://dl.dropbox.com/u/15289470/course-images/linkedin.png" width="48" height="48" alt="LinkedIn" />
+          </a>
+          <a href="https://www.facebook.com/elanperach" target="_blank">
+            <img src="http://dl.dropbox.com/u/15289470/course-images/facebook.png" width="48" height="48" alt="Facebook" />
+          </a>
+
+          <a href="https://github.com/elanperach" target="_blank">
+            <img src="http://dl.dropbox.com/u/15289470/course-images/github.png" width="48" height="48" alt="Github" />
+          </a>
+          <a href="http://stackoverflow.com/users/1436947/elan-perach" target="_blank">
+            <img src="http://dl.dropbox.com/u/15289470/course-images/stackoverflow.png" width="48" height="48" alt="StackOverflow" />
+          </a>
+          <a href="mailto:elan@500tech.com?subject=Hey how are you&body=its been a long time we should get together for a drink." target="_blank">
+            <img src="http://dl.dropbox.com/u/15289470/course-images/email.png" width="48" height="48" alt="Email" />
+          </a>
+          <div style="clear:both;"></div>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <img class="profile" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/c10.10.160.160/541969_10151177320863839_2033900569_a.jpg">
+        <div class="stats">
+          <h2>Yearly Stats</h2>
+          <div class="stat-total">
+            <div class="amount-in-dollars" style='display:none'>4000</div>
+            <div class="label">Net Profit</div>
+            <div class="amount">$1999</div>
+            <div class="currency">
+              (
+              <a href="#" onclick="toDollar(); return false;" class="in-dollar">dollar</a> 
+              / 
+              <a href="#" onclick="toEuro(); return false;" class="in-euro">euro</a>
+              )
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+
+    <script>
+      function toDollar() {
+        console.log('Clicked to dollars');
+      };
+
+      function toEuro() {
+        console.log('Clicked to euros');
+      };
+    </script>
+
+  </body>
+</html>
